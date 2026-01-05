@@ -6,6 +6,9 @@ This interactive Power BI dashboard analyzes medical data from over 5,000 patien
 ## Dashboard Preview
 ![Main Dashboard View](dashboard-main-view.png)
 
+## Interactive Tooltips and Deep Dives
+![Tooltip Detail](dashboard-tooltip-detail.png)
+
 ### Key Features
 * **Risk Stratification:** Categorizes patients into Normal, Moderate High, High, and Critical risk levels.
 * **Interactive Tooltips:** Provides deep-dive metrics on specific demographics, such as weight averages by occupation.
