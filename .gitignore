@@ -1,0 +1,11 @@
+# Power BI - Ignore local user settings and data cache
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
+
+# Ignore temporary Power BI files
+*.temp
+*.pbit
+
+# Windows system files
+Thumbs.db
+Desktop.ini
