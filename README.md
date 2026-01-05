@@ -41,6 +41,11 @@ CALCULATE(
 percentage of history of heart attack = [history of Heart Attack] / [Total Number of patient's diagnosis]
 percentage of history of stroke = [history of Stroke] / [Total Number of patient's diagnosis]
 ```
+## 🧼 Data Cleaning & Transformation (ETL)
+Before building the dashboard, I performed data cleaning in Power Query to ensure the 5,191 records were accurate:
+* **Handling Missing Values:** Identified and handled nulls/errors in `Weight` and `Height` columns to ensure BMI calculations remained accurate.
+* **Data Type Validation:** Standardized column types for `Weight` and `Height` to decimal numbers to allow for precise medical analysis.
+* **Error Replacement:** Used the "Replace Errors" function to maintain data integrity across the dataset.
 ## Insights from the Data
 * **Heart Health:** 2.74% of the analyzed population has a history of heart attacks.
 * **Occupation & Health:** Blue-collar workers in this dataset maintain an average weight of 63.98 kg.
